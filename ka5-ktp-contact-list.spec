@@ -41,6 +41,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 KDE Telepathy contact list.
 
+%description -l pl.UTF-8
+Lista kontaktów KDE Telepathy.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
